@@ -1,0 +1,37 @@
+.loginForm{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    gap: 2rem;
+    border-radius: 5px;
+    max-width: 25rem;
+    width: 100%;
+}
+
+.div__campo__formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.div__campo__formulario label{
+    color:#282c34;
+    text-align: start;
+    font-size: 1.2REM;
+}
+.div__campo__formulario input{
+    padding: 0.5rem;
+    border: none;
+    border: 2px solid #E1E1E1;
+}
+
+.btn_formulario{
+    background-color: #282c34;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 0rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
